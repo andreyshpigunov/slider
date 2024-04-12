@@ -1,11 +1,20 @@
 # Slider
 
-Изменяет изображение img при проведении по нему мышью.
+Changes the img image when you swipe over it with the mouse.
 
-## Использование
+## Usage
 
-    // Подключение Slider
-    import Slider from '../components/Slider.js';
-    
-    // Инициализация
-    Slider.init();
+### HTML:
+
+```
+<div data-slides='["file1","file2",...,"fileN"]'>
+  <img src="file1" alt="" />
+</div>
+```
+
+### JS
+
+```
+import Slider from '../components/Slider.js';
+Slider.init();
+```
