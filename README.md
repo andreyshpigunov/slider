@@ -4,7 +4,7 @@ Changes the img image when you swipe over it with the mouse.
 
 ## Demo
 
-[andreyshpigunov.ru/slider/](https://andreyshpigunov.ru/slider/)
+<a href="https://andreyshpigunov.ru/slider/" target="_blank">andreyshpigunov.ru/slider/</a>
 
 ## Usage
 
