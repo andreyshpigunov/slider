@@ -2,6 +2,10 @@
 
 Changes the img image when you swipe over it with the mouse.
 
+## Demo
+
+[andreyshpigunov.ru/slider/](https://andreyshpigunov.ru/slider/)
+
 ## Usage
 
 ### HTML:
@@ -15,6 +19,6 @@ Changes the img image when you swipe over it with the mouse.
 ### JS
 
 ```
-import Slider from '../components/Slider.js';
+import Slider from '../components/slider.js';
 Slider.init();
 ```
