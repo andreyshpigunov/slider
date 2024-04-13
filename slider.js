@@ -81,6 +81,4 @@ class Slider {
     
 }
 
-const Slider = new Slider();
-
-export default Slider;
+export default new Slider();
