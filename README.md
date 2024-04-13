@@ -8,7 +8,7 @@ Changes the img image when you swipe over it with the mouse.
 
 ## Usage
 
-### HTML
+### HTML:
 
 ```
 <div data-slides='["file1","file2",...,"fileN"]'>
