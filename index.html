@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider demo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/andreyshpigunov/auto@2.2.5/dist/auto.css"/>
+    <style>
+        body {
+            background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="mxa px8 py6 sm:p4 max800">
+        <h1>Slider</h1>
+        <p>Move mouse ↔️ on photo:</p>
+        <div data-slides='[
+            "img/1.jpg",
+            "img/2.jpg",
+            "img/3.jpg",
+            "img/4.jpg",
+            "img/5.jpg"
+        ]'>
+            <img src="img/1.jpg" alt="" class="r4 sh2"/>
+        </div>
+        <div class="mt5 fs12 op8">
+            <ol>
+                <li>Photo by <a href="https://unsplash.com/@ideasboom?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Qingbao Meng</a> on <a href="https://unsplash.com/photos/birds-eye-view-photograph-of-green-mountains-01_igFr7hd4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></li>
+                <li>Photo by <a href="https://unsplash.com/@davealmine?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dawid Zawiła</a> on <a href="https://unsplash.com/photos/trees-under-cloudy-sky-during-sunset--G3rw6Y02D0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></li>
+                <li>Photo by <a href="https://unsplash.com/@eberhardgross?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">eberhard 🖐 grossgasteiger</a> on <a href="https://unsplash.com/photos/landscape-photography-of-black-mountain-y2azHvupCVo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></li>
+                <li>Photo by <a href="https://unsplash.com/@eberhardgross?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">eberhard 🖐 grossgasteiger</a> on <a href="https://unsplash.com/photos/landscape-photography-of-black-mountain-y2azHvupCVo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></li>
+                <li>Photo by <a href="https://unsplash.com/@niko_photos?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">niko photos</a> on <a href="https://unsplash.com/photos/green-leaf-tree-under-blue-sky-tGTVxeOr_Rs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></li>
+            </ol>
+        </div>
+    </div>
+    <script src="slider.js" type="module"></script>
+    <script type="module">
+        import Slider from './slider.js';
+        Slider.init();
+    </script>
+</body>
+</html>
